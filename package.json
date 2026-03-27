@@ -8,11 +8,13 @@
     "kit": "vite --open uikit.html",
     "build:uikit": "rm -rf build/uikit && vite build uikit.html --outDir build/uikit",
     "build": "vite build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "prettier": "3.8.1",
     "sass": "^1.98.0",
     "vite": "^8.0.1"
