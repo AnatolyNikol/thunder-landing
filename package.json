@@ -4,11 +4,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "kit": "vite --open uikit.html",
+    "dev": "vite --open src/index.html",
+    "kit": "vite --open src/uikit.html",
     "build:uikit": "rm -rf build/uikit && vite build uikit.html --outDir build/uikit",
-    "build": "vite build",
-    "preview": "vite preview",
+    "build": "vite build src/",
+    "preview": "vite preview src/",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
   },
