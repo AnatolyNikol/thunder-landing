@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ui kit</title>
+    <link rel="stylesheet" href="/src/assets/styles/uikit.scss" />
+  </head>
+  <body>
+    <header>
+      <div class="menu">
+        <input
+          type="checkbox"
+          id="burger-checkbox"
+          class="menu__burger-checkbox"
+        />
+        <label for="burger-checkbox" class="menu__burger"></label>
+        <a href="#">
+          <img
+            src="src/assets/images/ooWJggXTzw2wzdqEIG-vo4p5NHW80OI-Pm7jfxseJVQXg9rEpu7TgscOZ0hNVA0tS7yk2q4yOC49j4xbNbym-a4W.jpg"
+            alt="Логотип клуба"
+            class="menu__logo"
+          />
+        </a>
+
+        <ul class="menu__menu-list">
+          <li><a href="#" class="menu__menu-item">Ссылка 1</a></li>
+          <li></li>
+          <li><a href="#" class="menu__menu-item">Ссылка 2</a></li>
+          <li>
+            <a href="#" class="menu__menu-item">
+              <img
+                src="src/assets/images/ooWJggXTzw2wzdqEIG-vo4p5NHW80OI-Pm7jfxseJVQXg9rEpu7TgscOZ0hNVA0tS7yk2q4yOC49j4xbNbym-a4W.jpg"
+                alt="Логотип клуба"
+                class="menu__logo-image"
+              />
+            </a>
+          </li>
+          <li><a href="#" class="menu__menu-item">Ссылка 3</a></li>
+          <li></li>
+          <li><a href="#" class="menu__menu-item">Ссылка 4</a></li>
+          <li></li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="ui__title">Заголовки</div>
+      <h1 class="h1">Самый важный заголовок</h1>
+      <h2 class="h2">Средний заголовок</h2>
+
+      <div class="divider"></div>
+      <div class="ui__title">Текст</div>
+      <p class="p1">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus
+        pariatur saepe, exercitationem quibusdam voluptatibus inventore?
+      </p>
+      <p class="p2">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus,
+        dignissimos. Molestiae provident quam quas tempore.
+      </p>
+      <p class="p3">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus,
+        dignissimos. Molestiae provident quam quas tempore.
+      </p>
+      <p class="p4">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus,
+        dignissimos. Molestiae provident quam quas tempore.
+      </p>
+
+      <div class="divider"></div>
+      <div class="ui__title">Контакт</div>
+      <div class="contact">
+        <img
+          src="./src/assets/icons/location.svg"
+          alt="Иконка локации"
+          class="contact__icon"
+        />
+        <span class="contact__title">Адрес</span>
+        <span class="contact__text">г. Екатеринбург, ул. Малышева, 51.</span>
+      </div>
+
+      <div class="divider"></div>
+      <div class="ui__title">Фото</div>
+      <div class="gallery">
+        <img
+          src="./src/assets/images/-KD8x9g90NAa2ctLI6qfXozmxHiTksyzJQfC7scvUjdhsGAfYFDmLGjUwEs_iBl3giHUu5Q2I8B7vhkn-BITqChm.jpg"
+          alt="Фото"
+          class="gallery__zoomable"
+        />
+        <img
+          src="./src/assets/images/dZCq2vOk-hZEZFKT3wjJLYBUTALGwaBU-BHgb486ldbDKxuFx6wctZtf3bu-NXnDBNw5YDRECagj9hNm490MZ7Ko.jpg"
+          alt="Фото"
+          class="gallery__zoomable"
+        />
+        <img
+          src="./src/assets/images/Boy-GR2OWA2r0PiKGscTmM481kSBUZWilYlMY7JlC4X1pqzN7lAZr3Od9tDxIqOIq9TZpjz9KW2F-r3IuCC2bbxG.jpg"
+          alt="Фото"
+          class="gallery__zoomable"
+        />
+      </div>
+      <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <div class="slider">
+          <div class="slides">
+            <div class="slide">
+              <img
+                src="./src/assets/images/-KD8x9g90NAa2ctLI6qfXozmxHiTksyzJQfC7scvUjdhsGAfYFDmLGjUwEs_iBl3giHUu5Q2I8B7vhkn-BITqChm.jpg"
+              />
+            </div>
+            <div class="slide">
+              <img
+                src="./src/assets/images/dZCq2vOk-hZEZFKT3wjJLYBUTALGwaBU-BHgb486ldbDKxuFx6wctZtf3bu-NXnDBNw5YDRECagj9hNm490MZ7Ko.jpg"
+              />
+            </div>
+            <div class="slide">
+              <img
+                src="./src/assets/images/Boy-GR2OWA2r0PiKGscTmM481kSBUZWilYlMY7JlC4X1pqzN7lAZr3Od9tDxIqOIq9TZpjz9KW2F-r3IuCC2bbxG.jpg"
+              />
+            </div>
+          </div>
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>

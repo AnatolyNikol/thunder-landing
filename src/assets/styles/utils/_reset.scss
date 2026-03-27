@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-margin-top: 80px;
+}
+
+html,
+body {
+  font-size: 10px;
+  font-family: $mainFont;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3 {
+  font-family: $mainFont;
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}

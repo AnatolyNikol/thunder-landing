@@ -1,0 +1,8 @@
+.gallary {
+  @include section();
+  background-color: $secondaryColor;
+
+  &__title {
+    @include h2($color: $gold);
+  }
+}

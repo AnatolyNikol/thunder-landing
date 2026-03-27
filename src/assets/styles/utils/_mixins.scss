@@ -1,0 +1,47 @@
+@mixin h1($color: $white) {
+  font-size: 52px;
+  color: $color;
+  font-family: $mainFont;
+  padding-bottom: 30px;
+
+  @media ($mobile) {
+    font-size: 28px;
+  }
+}
+
+@mixin h2($color: $white, $align: center) {
+  font-size: 40px;
+  font-weight: 200;
+  color: $color;
+  font-family: $mainFont;
+  text-align: $align;
+  line-height: 1.2;
+  padding-bottom: 20px;
+}
+
+@mixin p1($color: $white) {
+  font-size: 22px;
+  color: $color;
+}
+
+@mixin p2($color: $white) {
+  font-size: 20px;
+  color: $color;
+  line-height: 1.55;
+}
+
+@mixin p3($color: $white) {
+  font-size: 18px;
+  color: $color;
+}
+
+@mixin p4($color: $white) {
+  font-size: 16px;
+  color: $color;
+  line-height: 1.55;
+}
+
+@mixin section($pt: 60px, $pb: 60px) {
+  padding-top: $pt;
+  padding-bottom: $pb;
+}

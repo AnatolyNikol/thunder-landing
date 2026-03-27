@@ -1,0 +1,22 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+
+  width: 100%;
+  max-width: 280px;
+
+  &__icon {
+    width: 40px;
+  }
+
+  &__title {
+    @include p1($color: $gold);
+  }
+
+  &__text {
+    @include p4();
+  }
+}

@@ -1,0 +1,34 @@
+.rules {
+  @include section();
+  background-color: $primaryColor;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title {
+    @include h2($color: $gold);
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+
+    padding-left: 24px;
+
+    color: $white;
+    list-style: decimal;
+  }
+
+  &__list-item {
+    @include p2();
+
+    &::marker {
+      color: $accentColor;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+@import './utils';
+@import './section';
+@import './components';
+
+.devider {
+  height: 50px;
+}
+
+.container {
+  max-width: 1180px;
+  margin: auto;
+}
+
+.ui__title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  text-decoration: underline;
+}
+
+.h1 {
+  @include h1($color: $primaryColor);
+}
+
+.h2 {
+  @include h2($align: left, $color: $primaryColor);
+}
+
+.p1 {
+  @include p1($color: $primaryColor);
+}
+
+.p2 {
+  @include p2($color: $primaryColor);
+}
+
+.p3 {
+  @include p3($color: $primaryColor);
+}
+
+.p4 {
+  @include p4($color: $primaryColor);
+}

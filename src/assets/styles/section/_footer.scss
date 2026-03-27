@@ -1,0 +1,19 @@
+.footer {
+  @include section();
+  background-color: $primaryColor;
+
+  &__title {
+    @include h2($color: $gold);
+  }
+
+  &__contact_container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    @media ($desktop), ($tablet) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+}
