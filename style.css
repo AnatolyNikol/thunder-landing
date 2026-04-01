@@ -146,9 +146,17 @@ a:hover {
   right: 10px;
 }
 
+@media (min-width: 768px) {
+  .slide {
+    min-width: 500px;
+  }
+}
 @media (max-width: 767px) {
   .slider {
     max-width: 100%;
+  }
+  .slide {
+    min-width: 150px;
   }
   .prev,
   .next {

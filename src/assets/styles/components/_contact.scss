@@ -1,3 +1,6 @@
+@use '../utils/constants' as *;
+@use '../utils/mixins' as *;
+
 .contact {
   display: flex;
   flex-direction: column;

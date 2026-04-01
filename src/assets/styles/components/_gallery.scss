@@ -1,3 +1,5 @@
+@use '../utils/constants' as *;
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -88,9 +90,19 @@
   right: 10px;
 }
 
+@media ($tablet) {
+  .slide {
+    min-width: 500px;
+  }
+}
+
 @media ($mobile) {
   .slider {
     max-width: 100%;
+  }
+
+  .slide {
+    min-width: 150px;
   }
 
   .prev,

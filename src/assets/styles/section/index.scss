@@ -1,4 +1,4 @@
-@import './about';
-@import './rules';
-@import './gallary';
-@import './footer';
+@forward './about';
+@forward './rules';
+@forward './gallary';
+@forward './footer';
