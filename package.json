@@ -11,7 +11,8 @@
     "deploy": "gh-pages -d dist",
     "preview": "vite preview",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "scss compilation": "sass index.scss style.css"
   },
   "devDependencies": {
     "gh-pages": "^6.3.0",

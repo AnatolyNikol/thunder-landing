@@ -1,6 +1,6 @@
-@import './src/assets/styles/utils';
-@import './src/assets/styles/section';
-@import './src/assets/styles/components';
+@use './src/assets/styles/utils' as *;
+@use './src/assets/styles/section';
+@use './src/assets/styles/components';
 
 .devider {
   height: 50px;
@@ -16,6 +16,11 @@
   margin-bottom: 10px;
   margin-top: 20px;
   text-decoration: underline;
+}
+
+.contact__container {
+  background-color: $primaryColor;
+  width: 300px;
 }
 
 .h1 {
