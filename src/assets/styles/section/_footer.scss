@@ -1,3 +1,6 @@
+@use '../utils/constants' as *;
+@use '../utils/mixins' as *;
+
 .footer {
   @include section();
   background-color: $primaryColor;

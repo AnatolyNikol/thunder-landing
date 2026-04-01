@@ -1,6 +1,6 @@
-@import './src/assets/styles/utils';
-@import './src/assets/styles/components';
-@import './src/assets/styles/section';
+@use './src/assets/styles/utils' as *;
+@use './src/assets/styles/components';
+@use './src/assets/styles/section';
 
 .container {
   width: 100%;
