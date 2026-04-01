@@ -90,9 +90,19 @@
   right: 10px;
 }
 
+@media ($tablet) {
+  .slide {
+    min-width: 500px;
+  }
+}
+
 @media ($mobile) {
   .slider {
     max-width: 100%;
+  }
+
+  .slide {
+    min-width: 150px;
   }
 
   .prev,

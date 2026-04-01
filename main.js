@@ -5,8 +5,9 @@ const images = document.querySelectorAll('.gallery__zoomable');
 
 images.forEach(img => {
   img.onclick = function () {
+    const slideIndex = parseInt(this.getAttribute('data-slide')) || 0;
+    goToSlide(slideIndex);
     modal.style.display = 'block';
-    modalImg.src = this.src;
   };
 });
 
